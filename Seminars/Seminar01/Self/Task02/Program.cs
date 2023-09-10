@@ -14,7 +14,7 @@ namespace Homework_1
                    Name    = Console.ReadLine(),
                    FName   = Console.ReadLine();
 
-            Console.WriteLine("\n" + Surname + " " + Name + " " + FName);
+            Console.WriteLine("\n{0} {1} {2}", Surname, Name, FName);
             Console.ReadKey();
         }
     }
