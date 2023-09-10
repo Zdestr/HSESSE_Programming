@@ -12,7 +12,7 @@ namespace Homework_1
         {
             string Name = Console.ReadLine();
 
-            Console.WriteLine("\nЗдравствуйте, " + Name + "!");
+            Console.WriteLine("\nЗдравствуйте, {0}!", Name);
             Console.ReadKey();
         }
     }
